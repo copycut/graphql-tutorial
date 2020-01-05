@@ -1,0 +1,24 @@
+.add-book {
+  background: lightcyan;
+  padding: 8px;
+}
+
+.fieldset {
+  border: 0;
+  padding: 8px 0;
+}
+
+.label {
+  padding-right: 8px;
+}
+
+.submit {
+  display: block;
+  border: 0;
+  width: 100%;
+  background: cyan;
+  color: darkcyan;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
