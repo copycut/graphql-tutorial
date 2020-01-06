@@ -1,13 +1,13 @@
 {
-  "name": "graphql-server",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "repository": "https://github.com/copycut/graphql-tutorial",
+  "author": "Didier Chartrain <copycut.design@gmail.com>",
+  "license": "ISC",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

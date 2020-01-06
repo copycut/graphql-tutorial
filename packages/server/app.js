@@ -9,9 +9,11 @@ const app = express()
 
 app.use(cors())
 
-const uri = `mongodb+srv://${process.env.MONGO_USER_LOG}:${process.env.MONGO_USER_PASS}@${process.env.MONGO_CLUSTER}/test?retryWrites=true&w=majority`
+mongoose.connect(process.env.DATABASE_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
 
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.connection.once('open', () => {
   console.log('connected to DB')
 })

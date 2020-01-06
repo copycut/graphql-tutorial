@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "scripts": {
+    "start:server": "lerna run start --scope server",
+    "start:client:react": "lerna run start --scope react-client",
+    "start:client:vue": "lerna run start --scope vue-client"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
